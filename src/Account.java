@@ -45,6 +45,10 @@ public class Account {
         this.accName = accName;
     }
 
+    public String getAccName() {
+        return accName;
+    }
+
     public void setAccNum(int accNum){
         this.accNum = accNum;
     }
